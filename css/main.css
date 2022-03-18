@@ -3,6 +3,7 @@ html {
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
   line-height: 1.5;
+  font-weight: normal;
 }
 
 *,
@@ -46,7 +47,7 @@ h1, h2 {
 }
 
 figcaption {
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-style: italic;
   text-align: center;
 }
@@ -57,10 +58,11 @@ blockquote {
 }
 
 a {
-  color: #8f2440
+  color: #8f2440;
+  text-decoration: none;
 }
 
- a:hover {
- color: #3f1622;
- text-decoration: underline;
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }

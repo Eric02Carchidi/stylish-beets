@@ -17,8 +17,42 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #c9b5ab;
+}
+
+nav {
+  font-size: 1.125rem;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+}
+
+nav ol {
+  list-style-type: none;
+}
+
+nav a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
 h1, h2 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
+}
+
+figcaption {
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: center;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
 }

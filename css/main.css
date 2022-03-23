@@ -50,6 +50,10 @@ h1 {
 font-size: 1.5rem;
 }
 
+.varieties {
+  list-style-type: lower-roman;
+}
+
 figcaption {
   font-size: .8rem;
   font-style: italic;
